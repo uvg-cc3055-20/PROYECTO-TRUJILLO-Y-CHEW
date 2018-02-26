@@ -13,8 +13,8 @@ public class ScrollingBackground : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.Translate(new Vector2(-1, 0) * scrollingSpeed * Time.deltaTime);
-		if (transform.position.x < -203.82f) {
-			transform.position = new Vector3(203.82f, transform.position.y, transform.position.z);
+		if (transform.position.x < -123.16f) {
+			transform.position = new Vector3(0f, transform.position.y, transform.position.z);
 		}
 	}
 }

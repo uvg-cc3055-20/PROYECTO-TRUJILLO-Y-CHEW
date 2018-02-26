@@ -19,7 +19,7 @@ float elapsedTime = 4f;
             elapsedTime += Time.deltaTime;
         }
         else {
-            float random = Random.Range(-0.5f, -0.5f);
+            float random = Random.Range(0f, 4.5f);
             Instantiate(enemy, new Vector3(8, random, 0), Quaternion.identity);
             elapsedTime = 0;
         }
