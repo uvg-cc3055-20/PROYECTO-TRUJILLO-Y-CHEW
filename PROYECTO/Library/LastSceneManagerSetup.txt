@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scene/perdiste.unity
+- path: Assets/scene/Jugabilidad.unity
   isLoaded: 1
   isActive: 1

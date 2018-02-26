@@ -30,6 +30,8 @@ public class Mexicano : MonoBehaviour {
 		GameController.instance.score += 1;
 		Debug.Log (GameController.instance.score);
 		contador = contador +1; 
+		GameController.instance.gameOver = true; 
+		SceneManager.LoadScene("perdiste");
 	}
 
 	private void OnCollisionEnter2D(Collision2D collision)
