@@ -20,7 +20,7 @@ float elapsedTime = 6f;
             elapsedTime += Time.deltaTime;
         }
         else {
-            float random = Random.Range(0f, 4f);
+            float random = Random.Range(-1f, 3f);
             Instantiate(enemy2t, new Vector3(8, random, 0), Quaternion.identity);
             elapsedTime = 0;
         }
