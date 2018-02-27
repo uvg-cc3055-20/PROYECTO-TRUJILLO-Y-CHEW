@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/scene/Menu.unity
-=======
 - path: Assets/scene/Jugabilidad.unity
->>>>>>> f64df44f03460b9e8c0dfcf6aa8dd7e346adfaf0
   isLoaded: 1
   isActive: 1
