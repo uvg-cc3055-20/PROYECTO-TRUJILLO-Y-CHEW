@@ -6,14 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/scene/perdiste.unity
-    guid: 1edb668c49e4bc44eaaee92cc1a469bb
+    path: Assets/scene/Menu.unity
+    guid: 98a9dd75b1f38d146a2ea36053e803cb
   - enabled: 1
     path: Assets/scene/Jugabilidad.unity
     guid: f8a7b670e5c4c5c4faabeb855fe397a7
   - enabled: 1
-    path: Assets/scene/juego.unity
-    guid: 74cc440b6e9c326458075c80e3e41b29
-  - enabled: 1
-    path: Assets/scene/Menu.unity
-    guid: 98a9dd75b1f38d146a2ea36053e803cb
+    path: Assets/scene/perdiste.unity
+    guid: 1edb668c49e4bc44eaaee92cc1a469bb
